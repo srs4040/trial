@@ -8,6 +8,14 @@ alert ("Login successfully");
 window.location = "success.html"; // Redirecting to other page.
 return false;
 }
+  else if( username == "Shubhamrajesh007" && password == "mustangride")
+    {
+         alert("invalid email")
+    }
+  else if( username == "Shubhamrajesh007@gmail.com && password == "mustangrid" )
+          {
+          alert("invalid password")
+}
 else{
 attempt --;// Decrementing by one.
 alert("You have left "+attempt+" attempt;");
