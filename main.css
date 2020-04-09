@@ -1,6 +1,6 @@
 url(http://fonts.googleapis.com/css?family=Raleway);
 body{
-  background: #F7F7F7 url(bg-01.jpg) fixed;
+  background: url(bg-01.jpg) fixed;
 }
 h2{
 background-color: #FEFFED;
