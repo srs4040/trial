@@ -21,9 +21,11 @@ return false;
    else if( username == "985788535" && password == "mustangride")
     {
          alert("invalid user number");
-      return false;}
-else if ( username == "9857885350" && password == "mustangride"){
-alert ("Login successfully");
+      return false;
+    }
+else if ( username == "9857885350" && password == "mustangride")
+{
+alert("Login successfully");
   return false;
 }
 else{
