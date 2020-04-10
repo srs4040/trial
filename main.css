@@ -1,7 +1,8 @@
 url(http://fonts.googleapis.com/css?family=Raleway);
 body{
-  background:url(bg-01.jpg) fixed;
-  background-size: cover;
+  background: url(bg-01.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
   }
 h2{
 background-color: #FEFFED;
