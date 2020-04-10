@@ -1,8 +1,8 @@
 url(http://fonts.googleapis.com/css?family=Raleway);
 body{
-  background: #F7F7F7 url(bg-01.jpg) fixed;
+  background:url(bg-01.jpg) fixed;
   background-size: cover;
-  color: #fff;}
+  }
 h2{
 background-color: #FEFFED;
 padding: 30px 35px;
@@ -17,7 +17,7 @@ border-top: 1px solid #ccc;
 margin-bottom: 40px;
 }
 div.container{
-    background: #F7F7F7 url(bg-01.jpg) fixed;
+    
 width: 900px;
 height: 610px;
 margin:35px auto;
