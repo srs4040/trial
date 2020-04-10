@@ -5,16 +5,18 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "Shubhamrajesh007@gmail.com" && password == "mustangride"){
 alert ("Login successfully");
-window.location = "success.html"; // Redirecting to other page.
+//window.location = "success.html"; // Redirecting to other page.
 return false;
 }
   else if( username == "Shubhamrajesh007" && password == "mustangride")
     {
-         alert("invalid email")
+         alert("invalid email");
+      return false;
     }
-  else if( username == "Shubhamrajesh007@gmail.com && password == "mustangrid" )
+  else if( username == "Shubhamrajesh007@gmail.com" && password == "mustang" )
           {
-          alert("invalid password")
+          alert("invalid password");
+            return false;
 }
 else{
 attempt --;// Decrementing by one.
@@ -24,6 +26,7 @@ if( attempt == 0){
 document.getElementById("username").disabled = true;
 document.getElementById("password").disabled = true;
 document.getElementById("submit").disabled = true;
+  alert("Login Failed");
 return false;
 }
 }
