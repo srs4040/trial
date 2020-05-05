@@ -1,6 +1,7 @@
 url(http://fonts.googleapis.com/css?family=Raleway);
 body{
-  padding: 100px 200px;
+  margin-left: auto;
+  margin-right: auto;
   background: url(sec.jpg);
   background-repeat: no-repeat;
   background-size: auto;
