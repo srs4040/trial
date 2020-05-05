@@ -20,20 +20,23 @@ border-top: 1px solid #ccc;
 margin-bottom: 40px;
 }
 div.container{
-    
+    margin-left: auto;
+  margin-right: auto;
 width: 900px;
 height: 610px;
 margin:35px auto;
 font-family: 'Raleway', sans-serif;
 }
 div.main{
+  margin-left: auto;
+  margin-right: auto;
 width: 300px;
 padding: 10px 50px 25px;
 border: 2px solid gray;
 border-radius: 10px;
 font-family: raleway;
 float:left;
-margin-top:50px;
+margin-top:100px;
 }
 input[type=text],input[type=password]{
 width: 100%;
